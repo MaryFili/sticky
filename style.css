@@ -1,1 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  margin-top: 100px;
+}
+
+main.container {
+  background-color: whitesmoke;
+  width: 50%;
+  height: 200px;
+  padding: 10px;
+  margin: auto;
+  /* giv background width heigh,
+    padding and center it horizontally */
+
+  /* what is this doing? */
+  overflow-y: scroll;
+}
+.sticky-section {
+  margin-top: 10px;
+  border-bottom: solid;
+}
+
+.sticky {
+  background-color: aqua;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  /* make it sticky, and you need to define top: */
+}
+
+ul {
+  /* how to remove the discs from style? */
+  margin: 10px 0 10px 10px;
+  list-style: none;
+}
